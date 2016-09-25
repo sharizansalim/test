@@ -1,0 +1,198 @@
+/* General Styling*/
+
+/*to adjust the placement of the padding done*/
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'open sans', sans-serif;
+}
+
+h1, h2, h3 .btn{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*button class .btn*/
+.btn {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background: #1bbc9b;
+  /* padding: top right bottom left;
+  rounding of box: border-radius*/
+  padding: 10px 20px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+section {
+  padding: 40px 20px:
+}
+
+/* Navigation Styling */
+ nav {
+background: black;
+padding-left: : 30px;
+padding-right: 30px;
+padding-top: 30px;
+
+}
+
+nav ul {
+padding: 0;
+float: right;
+margin-top: 30 px;
+}
+
+nav ul li {
+display:inline;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+}
+
+/*Header styling*/
+header {
+  background: black url(../images/header-bg.jpg) center no-repeat;
+  color: white;
+  text-align: center;
+  height: 600px;
+  padding-top: 150px;
+}
+
+header h2 {
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+/* Features styling */
+.features {
+  text-align: center;
+  color: white;
+}
+.features article{
+  width: 22%;
+  display: inline-block;
+}
+.features article .btn {
+  color:white;
+}
+
+/*Others - Notes*/
+/*
+  p, h1, h2 {
+    font-family: sans-serif;
+    color: red;
+    font-size: 24px;
+  }
+
+  nav img {
+    border: 1px solid red;
+  }
+
+
+  ul li {
+font-size: 12px;
+  }
+
+  ul li a:hover {
+    color: yellowgreen;
+  }
+
+  ul li a {text-decoration: none;
+  }
+
+h1 {
+
+  font-family: 'Open Sans', Helvetica, sans-serif; arial
+  font-weight: lighter;
+
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+  h2 {
+    line-height:1.4;
+  }
+
+  header {
+/*
+    background-image: url(../images/header-bg.jpg);
+    background-color: yellowgreen;
+    height: 400px;
+    background-position: center bottom;
+    background-size: cover;
+  */
+
+/*shortcut to 1 line of code except for the size*/
+
+   background: white url(../images/header-bg.jpg) center no-repeat
+    background-size : cover;
+  }
+
+  section {
+    background: black;
+  }
+
+/*add a dot for features*/
+/*  .features {
+    background: purple;
+  }
+
+/*stacking of styles,color only affect fonts*/
+/* .hotpink {
+  color: pink;
+}
+
+/*latest statement at the bottom will overide those at the top*/
+section{
+  background: black;
+}
+
+.client ul {
+  display: inline-block;
+}
+.clients ul li {
+  width: 19%;
+  display: inline-block;
+}
+
+.clients ul li {
+  max-width: 150px;
+}
+
+.mockup {
+  background: url(../images/mockup-bg.jpg) no repeat;
+  background-attachment: fixed;
+}
+
+.clients .btn:hover {
+  background: white;
+  color: #1bbc9b;
+
+}
+
+/* hover effect
+.clients .btn:hover{
+border: 1px solid white;
+transition: .2s ease;
+}
+*/
+
+/* Media queries */
+@media (max-width: 768px) {
+  nav {
+    text-align: center;
+  }
+  nav ul {
+    float: none;
+  }
+
+  .mockup img {
+    max-width: 100%;
+  }
+}
